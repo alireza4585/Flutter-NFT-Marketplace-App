@@ -108,17 +108,19 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 
   List<Widget> post_generate() {
     return List.generate(
-        3,
-        (index) => Post(
-            creator: post_item[index][0],
-            name: post_item[index][1],
-            price: post_item[index][2],
-            image: post_item[index][3],
-            day: post_item[index][4],
-            follower: post_item[index][5],
-            creator_image: post_item[index][6],
-            minutes: post_item[index][7],
-            hours: post_item[index][8]));
+      3,
+      (index) => Post(
+        creator: post_item[index][0],
+        name: post_item[index][1],
+        price: post_item[index][2],
+        image: post_item[index][3],
+        day: post_item[index][4],
+        follower: post_item[index][5],
+        creator_image: post_item[index][6],
+        minutes: post_item[index][7],
+        hours: post_item[index][8],
+      ),
+    );
   }
 
   Widget tabbar() {

@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:nft_market/detail.dart';
 
 class Post extends StatelessWidget {
   String price;
@@ -30,7 +31,23 @@ class Post extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
       child: GestureDetector(
-        onTap: () {},
+        onTap: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: ((context) => Detail(
+                    creator: creator,
+                    name: name,
+                    price: price,
+                    image: image,
+                    day: day,
+                    follower: follower,
+                    creator_image: creator_image,
+                    minutes: minutes,
+                    hours: hours,
+                  )),
+            ),
+          );
+        },
         child: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
