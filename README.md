@@ -4,6 +4,7 @@
 
 # home page:
 
-![Screenshot_1668091838](https://user-images.githubusercontent.com/102475069/203722548-2db05c6d-3ba9-4249-b025-e3b99e6ac6d9.png)
+![Untitled design (3)](https://github.com/alireza4585/Flutter-NFT-Marketplace-App/assets/102475069/24289d0b-1129-452f-a075-4593ff6b6007)
+
 
 ![2](https://user-images.githubusercontent.com/102475069/208304466-ef13884a-c81b-4f50-a906-92d17c1fe515.png)
