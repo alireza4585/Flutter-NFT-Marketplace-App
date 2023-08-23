@@ -2,7 +2,7 @@
 
 # tutorial: https://www.youtube.com/watch?v=L7WgBUYv97w&t=0s&ab_channel=flutterskills
 
-# home page:
+# Screens:
 
 ![Untitled design (3)](https://github.com/alireza4585/Flutter-NFT-Marketplace-App/assets/102475069/24289d0b-1129-452f-a075-4593ff6b6007)
 
